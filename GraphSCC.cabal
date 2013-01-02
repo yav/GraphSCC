@@ -8,7 +8,7 @@ Category:         Algorithms
 Synopsis:         Tarjan's algorithm for computing the strongly connected components of a graph.
 Description:      Tarjan's algorithm for computing the strongly connected components of a graph.
 Build-type:       Simple
-Cabal-Version:    >= 1.2
+Cabal-Version:    >= 1.6
 
 flag use-maps
   default: False
@@ -25,4 +25,8 @@ library
   else
     Extensions:     Rank2Types
     Other-modules:  Data.Graph.ArraySCC
+
+source-repository head
+  type:        git
+  location:    git://github.com/yav/GraphSCC.git
 
