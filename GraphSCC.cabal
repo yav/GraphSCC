@@ -15,7 +15,7 @@ flag use-maps
   description: Use IntMap instead of mutable arrays.
 
 library
-  Build-Depends:    base, array, containers
+  Build-Depends:    base < 10, array, containers
   Exposed-modules:  Data.Graph.SCC
   Extensions:       CPP
   GHC-options:      -O2 -Wall
