@@ -5,6 +5,7 @@
 -- This implementation uses 'IntMap' instead of mutable arrays in the algorithm.
 -- The benefit is that the implementation conforms to the Haskell 98 standard,
 -- however, the algorithm is a bit slower on large graphs.
+{-# LANGUAGE Safe #-}
 module Data.Graph.MapSCC(scc) where
 
 import Data.Graph(Graph,Vertex)

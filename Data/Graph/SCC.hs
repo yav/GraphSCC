@@ -1,4 +1,4 @@
-{-# LANGUAGE CPP #-}
+{-# LANGUAGE CPP, Safe #-}
 module Data.Graph.SCC
   ( scc
   , sccList

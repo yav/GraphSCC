@@ -1,7 +1,7 @@
 -- | Implements Tarjan's algorithm for computing the strongly connected
 -- components of a graph.  For more details see:
 -- <http://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm>
-{-# LANGUAGE Rank2Types #-}
+{-# LANGUAGE Rank2Types, Trustworthy #-}
 module Data.Graph.ArraySCC(scc) where
 
 import Data.Graph(Graph,Vertex)
